@@ -1,0 +1,24 @@
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu p{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+#menu a {
+    display: inline-block;
+    padding:5px 10px;
+    width: 160px;
+    background-color: lightblue;
+    border-bottom: 1px solid #160505;
+    text-align:initial;
+}
+#menu a:link, #menu: visited {
+    color: #ff0000
+    text-decoration:none;
+}
+#menu a:hover {
+    background-color: red;
+    color: whitesmoke;
+}
